@@ -38,7 +38,7 @@
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/stylelint-module": "^4.1.0",
-    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@nuxtjs/tailwindcss": "^6.1.2",
     "@wdio/cli": "^7.16.11",
     "@wdio/local-runner": "^7.16.11",
     "@wdio/mocha-framework": "^7.16.11",
