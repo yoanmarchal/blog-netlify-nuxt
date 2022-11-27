@@ -1,5 +1,8 @@
+
 <template>
-  <NuxtExampleLayout example="essentials/hello-world" repo="nuxt/content">
-    <NuxtPage class="prose text-left" />
-  </NuxtExampleLayout>
+  <main>
+    <NuxtLayout>
+      <NuxtPage class="container mx-auto prose text-left" />
+    </NuxtLayout>
+  </main>
 </template>
