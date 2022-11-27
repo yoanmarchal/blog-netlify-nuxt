@@ -5,11 +5,10 @@ const query: QueryBuilderParams = { path: '/blog', where: { layout: 'article' },
 
 <template>
   <div>
-    <div class="pb-4 border-b border-gray-500">
-      Blog layout
-    </div>
+    <MainNavigation />
     <slot />
-    <nav>
+
+    <nav class="container mx-auto prose text-left" >
       <ContentList :query="query" v-slot="{ list }">
         <div v-for="article in list" :key="article._path">
 
