@@ -3,7 +3,7 @@
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <NuxtLink to="/" class="flex items-center">
         <svg class="h-6 mr-3 sm:h-9" viewBox="0 0 1920 730">
-          <g class="lines" fill="none" fill-rule="evenodd" stroke="#58a8fe" style="
+          <g class="lines" fill="none" fill-rule="evenodd" stroke="#fff" style="
               stroke-width: 10px;
           ">
             <path d="M287.057 729.986L2 730.279 292 2.667l251.327.946-256.27 726.373z"></path>
