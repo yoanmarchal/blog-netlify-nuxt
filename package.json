@@ -11,6 +11,7 @@
     "lhci:desktop": "lhci autorun --collect.settings.preset=desktop"
   },
   "devDependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.13.0",
     "@lhci/cli": "^0.10.0",
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
