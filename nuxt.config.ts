@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   components: true,
   modules: [
     '@nuxt/content',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@nuxtjs/pwa'
   ],
   plugins: ['~/plugins/preview.client.js'],
   content: {

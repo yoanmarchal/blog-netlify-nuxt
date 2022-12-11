@@ -75,3 +75,5 @@ cypress/screenshots
 
 # Fake contents in test directories
 fake
+
+sw.*
