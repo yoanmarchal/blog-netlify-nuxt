@@ -6,9 +6,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "start": "nuxt start",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "lhci:mobile": "lhci autorun",
+    "lhci:desktop": "lhci autorun --collect.settings.preset=desktop"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.10.0",
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
     "nuxt": "npm:nuxt3@latest"
