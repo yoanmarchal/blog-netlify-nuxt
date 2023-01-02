@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/ui'
   ],
-  plugins: ['~/plugins/preview.client.js'],
   content: {
     documentDriven: true
   }
