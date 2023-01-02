@@ -7,8 +7,14 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxtjs/pwa'
   ],
-  plugins: ['~/plugins/preview.client.js'],
   content: {
     documentDriven: true
+  },
+  pwa: {
+    manifest: {
+      name: 'My Awesome App',
+      lang: 'fr',
+      useWebmanifestExtension: false
+    }
   }
 })
