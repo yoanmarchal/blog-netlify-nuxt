@@ -5,14 +5,9 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "start": "nuxt start",
-    "preview": "nuxt preview",
-    "lhci:mobile": "lhci autorun",
-    "lhci:desktop": "lhci autorun --collect.settings.preset=desktop"
+    "start": "nuxt start"
   },
   "devDependencies": {
-    "@kevinmarrec/nuxt-pwa": "^0.13.0",
-    "@lhci/cli": "^0.10.0",
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
     "nuxt": "npm:nuxt3@latest"
