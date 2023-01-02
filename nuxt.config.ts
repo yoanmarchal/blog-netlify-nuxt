@@ -8,5 +8,12 @@ export default defineNuxtConfig({
   ],
   content: {
     documentDriven: true
+  },
+  pwa: {
+    manifest: {
+      name: 'My Awesome App',
+      lang: 'fr',
+      useWebmanifestExtension: false
+    }
   }
 })
