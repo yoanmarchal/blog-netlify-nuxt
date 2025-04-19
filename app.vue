@@ -1,4 +1,6 @@
 
 <template>
-  <NuxtPage class="container mx-auto prose text-left" />
+  <div>
+    <NuxtPage class="container mx-auto prose text-left" />
+  </div>
 </template>

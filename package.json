@@ -12,6 +12,7 @@
   "devDependencies": {
     "@lhci/cli": "^0.10.0",
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
+    "@nuxt/devtools": "^0.2.5",
     "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
     "nuxt": "npm:nuxt3@latest"
   }
